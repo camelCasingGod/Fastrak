@@ -46,6 +46,14 @@ function App() {
           level={"H"}
         />
         <p hidden id="pass">YOUR VENUE PASS</p>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+      <div className='logo'>fastrak, powered by World ID</div>
       </header>
     </div>
   );
