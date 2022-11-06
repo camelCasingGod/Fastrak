@@ -14,9 +14,9 @@ function App() {
     let mRoot = verificationResponse.merkle_root;
     let nHash = verificationResponse.nullifier_hash;
     let proof = verificationResponse.proof;
-    console.log(mRoot);
-    console.log(nHash);
-    console.log(proof);
+    console.log("Merkle: " + mRoot);
+    console.log("Null Hash: " + nHash);
+    console.log("Proof: " + proof);
     document.getElementById("qrCode").style.display = "block";
     document.getElementById("verify").style.display = "none";
     document.getElementById("pass").style.display = "block";
